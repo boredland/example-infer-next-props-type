@@ -1,5 +1,5 @@
 import InferNextPropsType from 'infer-next-props-type'
-import type { GetServerSideProps, GetServerSidePropsContext, NextPage } from 'next'
+import type { GetServerSidePropsContext, NextPage } from 'next'
 
 const Page: NextPage<InferNextPropsType<typeof getServerSideProps>> = ({ session }) => {
     // session is string
